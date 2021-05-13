@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -72,8 +76,8 @@ nav img {
 
 .text-box p
 {
-    margin:10px 0 40px;
-    font-size:14px;
+    margin:20px 0 40px;
+    font-size:18px;
     color: #fff;
 }
 .hero-btn
@@ -101,8 +105,11 @@ nav .bi
 }
 @media(max-width:700px)
 {
+    nav img {
+        margin-top: 20px
+    }
     .text-box h1{
-        font-size: 25px;  
+        font-size: 30px;  
         
     }   
     .nav-links ul li {
@@ -138,14 +145,33 @@ nav .bi
     nav .bi{
     display: block;
     color:#fff;
-    margin:25px;
+    margin: 25px 25px 25px 10px;
     font-size:15px;
     cursor:pointer;
 } 
  .nav-links ul
 { 
-    padding: 20px; 
+  padding: 20px 20px 20px 5px; 
 } 
+}
 
+/* Course Section */
 
+.course
+{
+    width:80% ;
+    margin:auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+  font-size: 36px;
+  font-weight: 600;
+}
+.course p{
+  color:black;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding:10px
 }

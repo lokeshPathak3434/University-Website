@@ -11,3 +11,4 @@ closeBtn.addEventListener('click',()=>
     console.log("close clicked")
     nav.classList.remove("show");
 })
+
